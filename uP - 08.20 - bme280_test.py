@@ -42,7 +42,7 @@ i2c = SoftI2C(scl=Pin(22), sda=Pin(4), freq=400000)
 
 bme = bme280.BME280(   i2c=i2c,
                        mode=bme280.BME280_OSAMPLE_8,
-                       address=bme280.BME280_I2CADDR ) # Works ok with explicity settings
+                       address=bme280.BME280_I2CADDR ) # Works ok with explicit settings
 #bme = bme280.BME280(i2c=i2c)  # Also works ok, defaults.
 
 def read_sensor_isr(event):
