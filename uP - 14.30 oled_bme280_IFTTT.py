@@ -1,5 +1,5 @@
 '''
- 15.20 - Combine an 1.3" OLED with the SH1106 controller, a BME280 sensor and Wifi/IFTTT
+ 14.30 - Combine an 1.3" OLED with the SH1106 controller, a BME280 sensor and Wifi/IFTTT
 
  This is an example script where a single file contains all logic, variables and functions.
  
