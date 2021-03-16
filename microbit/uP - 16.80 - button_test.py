@@ -21,7 +21,7 @@
   - Breadboard
 
  Documentation:
- * Neopixels: https://microbit-micropython.readthedocs.io/en/v1.0.1/neopixel.html
+ * Buttons: https://microbit-micropython.readthedocs.io/en/v1.0.1/tutorials/buttons.html
 
 
  Course:
