@@ -1,5 +1,5 @@
 '''
- 15.40b - Combine an 1.3" OLED with the SH1106 controller, a BME280 sensor and Wifi/IFTTT
+ 14.40b - Combine an 1.3" OLED with the SH1106 controller, a BME280 sensor and Wifi/IFTTT
 
  Contains supporting variables and functions needed by oled_bme_280_IFTTT_modular.py".
 
