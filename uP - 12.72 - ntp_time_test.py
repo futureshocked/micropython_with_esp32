@@ -40,7 +40,7 @@
 
 # UTC time: https://time.is/UTC
 
-import network, sys
+import network, usys
 import ujson as json 
 import ntptime
 import utime
