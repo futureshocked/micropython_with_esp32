@@ -41,8 +41,8 @@
 from machine import ADC, Pin, PWM
 from time import sleep
 
-pwm21 = PWM(Pin(21))    # create ADC object on ADC pin
-adc = ADC(Pin(34))     # create an LED object
+pwm21 = PWM(Pin(21))    # create an PWM object on pin 21
+adc = ADC(Pin(34))      # create ADC object on ADC pin
 
 adc.atten(ADC.ATTN_11DB)  # Full range: 3.3v
 
