@@ -3,8 +3,6 @@
 
  This sketch shows how to use the ADXL335 analog accelerometer.
 
- When the button is pressed, the LED turns on for 500msec.
-
  Components
  ----------
   - ESP32
