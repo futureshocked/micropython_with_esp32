@@ -33,7 +33,7 @@
 '''
 
 from machine import Pin, SoftI2C #I2C #SoftI2C 
-import SSD1306
+import ssd1306
 from time import sleep
  
 #i2c = I2C(scl=Pin(25), sda=Pin(26), freq=400000)  # Gives deprecation warning
