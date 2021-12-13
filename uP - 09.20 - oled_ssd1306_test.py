@@ -21,7 +21,7 @@
  * softI2C: https://docs.micropython.org/en/latest/library/machine.I2C.html?highlight=softi2c#machine.SoftI2C
  
  Requires:
- * SSD1306.py: https://gist.github.com/unforgiven512/cee0fdce1a00ecac31f40ca6820c1828
+ * ssd1306 which comes with recent versions of the ESP32 Micropython firmware (nothing additional to install)
  
  Beware:
  I have tested a few methods for setting up the I2C object. Only the software I2C worked, as used below.
@@ -42,7 +42,7 @@ i2c = SoftI2C(scl=Pin(25), sda=Pin(26), freq=400000)  # Using software I2C WORKS
  
 oled_width = 128
 oled_height = 64
-oled = SSD1306.SSD1306_I2C(oled_width, oled_height, i2c)
+oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
  
 while True:
     oled.fill(0)
