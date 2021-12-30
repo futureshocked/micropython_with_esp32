@@ -21,7 +21,7 @@
  * softI2C: https://docs.micropython.org/en/latest/library/machine.I2C.html?highlight=softi2c#machine.SoftI2C
  
  Requires:
- * ssd1306 which comes with recent versions of the ESP32 Micropython firmware (nothing additional to install)
+ * ssd1306 is part of the ESP32 Micropython firmware, you can copy from https://github.com/micropython/micropython/blob/master/drivers/display/ssd1306.py
  
  Beware:
  I have tested a few methods for setting up the I2C object. Only the software I2C worked, as used below.
